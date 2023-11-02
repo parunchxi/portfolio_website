@@ -8,8 +8,8 @@ const Hero = () => {
     <section className="lg:py-16">
       <div className="flex flex-col md:flex-row place-content-between gap-3 p-4 my-6">
         <div className="place-self-center text-center md:text-left justify-self-center">
-          <p className="text-default-600 text-lg lg:text-3xl">Hi there,</p>
-          <h1 className="text-foreground text-3xl md:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
+          <p className="text-default-600 text-xl lg:text-3xl">Hi there,</p>
+          <h1 className="text-foreground text-4xl lg:text-5xl lg:leading-normal font-extrabold">
             {"I'm "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               Parunchai Kaewkhampa
