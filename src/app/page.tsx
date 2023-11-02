@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-background">
+    <>
       <Navbar />
       <main className="container max-w-screen-2xl mx-auto sm:px-6 px-4">
         <Hero />
@@ -16,6 +16,6 @@ export default function Home() {
           reprehenderit at laboriosam?
         </div>
       </main>
-    </div>
+    </>
   );
 }
