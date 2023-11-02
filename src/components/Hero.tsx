@@ -8,16 +8,14 @@ const Hero = () => {
     <section className="lg:py-16">
       <div className="flex flex-col md:flex-row place-content-between gap-3 p-4 my-6">
         <div className="place-self-center text-center md:text-left justify-self-center">
-          <p className="text-default-600 text-base md:text-lg lg:text-3xl">
-            Hi there,
-          </p>
-          <h1 className="text-foreground text-2xl md:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
+          <p className="text-default-600 text-lg lg:text-3xl">Hi there,</p>
+          <h1 className="text-foreground text-3xl md:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
             {"I'm "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               Parunchai Kaewkhampa
             </span>
           </h1>
-          <p className="text-default-600 text-2xl md:text-3xl lg:text-4xl">
+          <p className="text-default-600 text-3xl lg:text-4xl">
             <Link href="https://github.com/parunchxi">
               <i className="ri-github-fill hover:text-default-500 ease-in-out duration-300">
                 {" "}
