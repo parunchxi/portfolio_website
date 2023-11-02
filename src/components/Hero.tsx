@@ -8,31 +8,35 @@ const Hero = () => {
     <section className="lg:py-16">
       <div className="flex flex-col md:flex-row place-content-between gap-3 p-4 my-6">
         <div className="place-self-center text-center md:text-left justify-self-center">
-          <p className="text-[#ADB7BE] text-base md:text-lg lg:text-3xl">
+          <p className="text-default-600 text-base md:text-lg lg:text-3xl">
             Hi there,
           </p>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
+          <h1 className="text-foreground text-2xl md:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
             {"I'm "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FEE8D] to-[#17c964]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               Parunchai Kaewkhampa
             </span>
           </h1>
-          <p className="text-[#ADB7BE] text-base md:text-2lg lg:text-4xl">
+          <p className="text-default-600 text-2xl md:text-3xl lg:text-4xl">
             <Link href="https://github.com/parunchxi">
-              <i className="ri-github-fill hover:text-white ease-in-out"> </i>
+              <i className="ri-github-fill hover:text-default-500 ease-in-out duration-300">
+                {" "}
+              </i>
             </Link>
             <Link href="https://www.facebook.com/parunchxi">
-              <i className="ri-facebook-circle-fill hover:text-white ease-in-out">
+              <i className="ri-facebook-circle-fill hover:text-default-500 ease-in-out duration-300">
                 {" "}
               </i>
             </Link>
             <Link href="mailto:parunchxi@gmail.com">
-              <i className="ri-mail-fill hover:text-white ease-in-out"> </i>
+              <i className="ri-mail-fill hover:text-default-500 ease-in-out duration-300">
+                {" "}
+              </i>
             </Link>
           </p>
         </div>
         <div className="place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-default-200 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/image1.png"
               alt="hero image"

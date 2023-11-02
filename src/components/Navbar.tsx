@@ -19,12 +19,12 @@ export default function App() {
   return (
     <Navbar shouldHideOnScroll maxWidth="2xl" isBordered>
       <NavbarBrand>
-        <p className="font-bold text-xl">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FEE8D] to-[#17c964]">
+        <p className="font-bold text-xl text-foreground">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
             {"<"}
           </span>
           {"Parunchxi"}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FEE8D] to-[#17c964]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
             {"/>"}
           </span>
         </p>
