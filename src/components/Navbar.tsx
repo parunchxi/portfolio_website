@@ -19,7 +19,15 @@ export default function App() {
   return (
     <Navbar shouldHideOnScroll maxWidth="2xl" isBordered>
       <NavbarBrand>
-        <p className="font-bold text-xl">{"<Parunchxi/>"}</p>
+        <p className="font-bold text-xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FEE8D] to-[#17c964]">
+            {"<"}
+          </span>
+          {"Parunchxi"}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6FEE8D] to-[#17c964]">
+            {"/>"}
+          </span>
+        </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {menuItems.map((item, index) => (
