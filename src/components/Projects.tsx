@@ -1,9 +1,9 @@
 import React from "react";
 
-const About = () => {
+const Projects = () => {
   return (
-    <section id="about">
-      <h2 className="font-bold text-3xl mb-4">About Me</h2>
+    <section id="projects">
+      <h2 className="font-bold text-3xl mb-4">Projects</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
         corporis possimus repudiandae veniam quod quam atque tempora dolores
@@ -16,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;

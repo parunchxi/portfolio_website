@@ -12,9 +12,10 @@ import {
 
 export default function App() {
   const menuItems = [
-    { name: "About", href: "#" },
-    { name: "Skills", href: "#" },
-    { name: "Education", href: "#" },
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Education", href: "#education" },
   ];
   return (
     <Navbar shouldHideOnScroll maxWidth="2xl" isBordered>
