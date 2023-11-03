@@ -2,15 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about">
-      <h2 className="font-bold text-3xl mb-4">About Me</h2>
+    <section id="about" className="pt-16">
+      <h2 className="font-bold text-3xl mb-4">About me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-        corporis possimus repudiandae veniam quod quam atque tempora dolores
-        expedita odio ducimus qui doloribus aspernatur nostrum provident
-        repellat commodi consequatur maxime reiciendis iure, non ad, consectetur
-        mollitia totam? Adipisci praesentium, nihil quos ducimus in nisi quod
-        maxime quae dolor, explicabo labore.
+        I am Parunchai Kaewkhampa, a person who has passionate about technology
+        and its potential to solve real-world problems that can make all life
+        better with technology. Now, I am also interested in cyber security and
+        artificial intelligence, which I am currently learning and practicing.
       </p>
     </section>
   );

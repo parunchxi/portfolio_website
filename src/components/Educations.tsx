@@ -2,7 +2,7 @@ import React from "react";
 
 const Educations = () => {
   return (
-    <section id="education">
+    <section id="education" className="pt-16">
       <h2 className="font-bold text-3xl mb-4">Educations</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
