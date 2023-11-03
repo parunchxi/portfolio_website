@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="container max-w-screen-2xl mx-auto sm:px-6 px-4 flex flex-col mb-[1500px] ">
+      <main className="container max-w-screen-2xl mx-auto sm:px-6 px-4 flex flex-col">
         <Hero />
         <About />
         <Skills />
