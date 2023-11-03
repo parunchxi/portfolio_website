@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects" className="pt-16">
       <h2 className="font-bold text-3xl mb-4">Projects</h2>
-      <div className="w-[100%] flex gap-8">
+      <div className="w-[100%] flex gap-1 flex-col sm:flex-row sm:gap-8">
         {projects.map((project) => (
           <div key={project.title} className="mb-4">
             <Card className="px-8">
