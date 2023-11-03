@@ -1,17 +1,23 @@
 import React from "react";
+import { educations } from "@/contents/educations";
+import { Card, CardBody } from "@nextui-org/react";
 
 const Educations = () => {
   return (
     <section id="education" className="pt-16">
       <h2 className="font-bold text-3xl mb-4">Educations</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-        corporis possimus repudiandae veniam quod quam atque tempora dolores
-        expedita odio ducimus qui doloribus aspernatur nostrum provident
-        repellat commodi consequatur maxime reiciendis iure, non ad, consectetur
-        mollitia totam? Adipisci praesentium, nihil quos ducimus in nisi quod
-        maxime quae dolor, explicabo labore.
-      </p>
+      <div className="w-[100%] flex gap-8">
+        {educations.map((education) => (
+          <div key={education.title} className="mb-4">
+            <Card className="px-8">
+              <CardBody>
+                <h3 className="font-bold text-xl mb-2">{education.title}</h3>
+                <p>{education.time}</p>
+              </CardBody>
+            </Card>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
