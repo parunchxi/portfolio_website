@@ -5,12 +5,13 @@ const Skills = () => {
     <section id="skills" className="pt-16">
       <h2 className="font-bold text-3xl mb-4">Skills</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-        corporis possimus repudiandae veniam quod quam atque tempora dolores
-        expedita odio ducimus qui doloribus aspernatur nostrum provident
-        repellat commodi consequatur maxime reiciendis iure, non ad, consectetur
-        mollitia totam? Adipisci praesentium, nihil quos ducimus in nisi quod
-        maxime quae dolor, explicabo labore.
+        - Programming Languages: JavaScript, TypeScript, C, Python <br />-
+        Frontend: React, Next.js, HTML, CSS, SCSS, TailwindCSS, Bootstrap,
+        MaterialUI
+        <br />
+        - Backend: Node.js, Express.js <br />
+        - Database: MySQL, MongoDB <br />
+        - Others: Git, GitHub, Docker <br />
       </p>
     </section>
   );
