@@ -15,7 +15,7 @@ export default function App() {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Education", href: "#education" },
+    { name: "Educations", href: "#educations" },
   ];
   return (
     <Navbar shouldHideOnScroll maxWidth="2xl" isBordered>
