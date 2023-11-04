@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@nextui-org/react";
 import "remixicon/fonts/remixicon.css";
 
 const Hero = () => {
@@ -15,21 +15,23 @@ const Hero = () => {
               Parunchai Kaewkhampa
             </span>
           </h1>
-          <p className="text-default-600 text-3xl lg:text-4xl">
-            <Link href="https://github.com/parunchxi">
-              <i className="ri-github-fill hover:text-default-500 ease-in-out duration-300">
-                {" "}
-              </i>
+          <p className="flex flex-row gap-2 justify-center md:justify-start">
+            <Link
+              href="https://github.com/parunchxi"
+              color="foreground"
+              isExternal
+            >
+              <i className="ri-github-fill text-3xl lg:text-4xl"> </i>
             </Link>
-            <Link href="https://www.facebook.com/parunchxi">
-              <i className="ri-facebook-circle-fill hover:text-default-500 ease-in-out duration-300">
-                {" "}
-              </i>
+            <Link
+              href="https://www.facebook.com/parunchxi"
+              color="foreground"
+              isExternal
+            >
+              <i className="ri-facebook-circle-fill text-3xl lg:text-4xl"> </i>
             </Link>
-            <Link href="mailto:parunchxi@gmail.com">
-              <i className="ri-mail-fill hover:text-default-500 ease-in-out duration-300">
-                {" "}
-              </i>
+            <Link href="mailto:parunchxi@gmail.com" color="foreground">
+              <i className="ri-mail-fill  text-3xl lg:text-4xl"> </i>
             </Link>
           </p>
         </div>
