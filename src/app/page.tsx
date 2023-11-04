@@ -11,8 +11,10 @@ export default function Home() {
       <Navbar />
       <main className="container max-w-screen-2xl mx-auto sm:px-6 px-4 flex flex-col">
         <Hero />
-        <About />
-        <Skills />
+        <div className="sm:grid sm:grid-cols-2 sm:gap-8">
+          <About />
+          <Skills />
+        </div>
         <Projects />
         <Educations />
       </main>
