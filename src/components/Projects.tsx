@@ -24,12 +24,12 @@ const Projects = () => {
               </CardBody>
               <CardFooter className="gap-2">
                 {project.github && (
-                  <Link href={project.github}>
+                  <Link href={project.github} isExternal>
                     <i className="ri-github-fill text-default-700 hover:text-default-500 ease-in-out duration-300 text-2xl"></i>
                   </Link>
                 )}
                 {project.link && (
-                  <Link href={project.link}>
+                  <Link href={project.link} isExternal>
                     <i className="ri-link text-default-700 hover:text-default-500 ease-in-out duration-300 text-2xl"></i>
                   </Link>
                 )}
