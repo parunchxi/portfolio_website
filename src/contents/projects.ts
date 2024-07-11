@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "ComCamp35",
+    description: "Website for ComCamp35",
+    catagory: "Website",
+    role: "Designer",
+    image: "",
+    link: "https://comcamp.io/",
+    github: "",
+  },
+  {
     title: "Engineering openhouse carnival at bangmod",
     description: "Website for Engineering openhouse carnival at bangmod",
     catagory: "Website",
@@ -27,14 +36,5 @@ export const projects = [
     image: "",
     link: "",
     github: "https://github.com/parunchxi/JavaScript-Login-Registration-Form",
-  },
-  {
-    title: "To-Do List",
-    description: "A To-Do List has been built using ReactJS with JavaScript.",
-    catagory: "Website",
-    role: "Developer",
-    image: "",
-    link: "",
-    github: "https://github.com/parunchxi/React-ToDoList",
   },
 ];
